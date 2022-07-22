@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+/*menu da pagina*/
+
+.menu-navegacao {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.lista-de-navegacao {
+    display: flex;
+    gap: 8rem;
+    margin-left: 6%;
+    align-items: center;
+    list-style: none;
+}
+
+.lista-de-navegacao li {
+    font-weight: bolder;
+}
+
+
+/* Sessao de tenis */
+.sessao_de_tenis {
+    margin-left: 18%;
+    width: 23%;
+    padding: 70px;
+}
+.cabecalho_sessao_tenis h1 {
+    font-size: 3.5em;
+}
+
+.cabecalho_sessao_tenis {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 5px;
+}
+.cabecalho_sessao_tenis p {
+    color: darkgrey;
+    font-weight: bold;
+    margin-top: 25px;
+    font-size: 12px;
+}
+
+.cabecalho_sessao_tenis span {
+    font-weight: bold;
+    font-size: 2em;
+    font-family: sans-serif;
+    margin-top: 25px;
+}
+
+.cabecalho_sessao_tenis button {
+    background: red;
+    border: none;
+    width: 80%;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    align-self: center;
+    padding: 20px;
+    align-self: flex-start;
+} 
+
+
+/*Seunda sessao da pagina , galeria de tenis*/
+
+
+.galeria_tenis{
+    background: darkgrey;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.img-fotos {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.img-fotos img:nth-child(2) {
+    border-bottom: 5px solid red;
+}
+
+
+/* footer */
+
+.final-da-pagina {
+    display: flex;
+}
+
+
+.lista-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+    align-items: center;
+}
+
+.lista-footer li {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.lista-footer li:nth-child(5) {
+    padding: 70px;
+    color: white;
+    flex-basis: 25%;
+    text-align: center;
+    background-color: black;
+    border: 1px solid black;
+}
